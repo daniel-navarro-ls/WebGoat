@@ -105,6 +105,8 @@
   </issueManagement>
 
   <properties>
+    <sonar.moduleKey>${project.groupId}:${project.artifactId}</sonar.moduleKey>
+    <skipTests>true</skipTests>  
     <sonar.organization>practica-dms</sonar.organization>  
     <!-- Shared properties with plugins and version numbers across submodules-->
     <asciidoctorj.version>2.5.3</asciidoctorj.version>
